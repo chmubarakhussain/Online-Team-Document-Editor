@@ -1,0 +1,41 @@
+﻿  A5.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\xutility(3481): error C2678: binary '==': no operator found which takes a left-hand operand of type 'File' (or there is no acceptable conversion)
+  c:\users\mubar\desktop\fall 2018 3rd\data structures cs-b\assignments\a5\a5\a5.cpp(106): note: could be 'bool File::operator ==(File &)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\system_error(374): note: or       'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\system_error(368): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\system_error(362): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\system_error(356): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\exception(329): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\exception(324): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\exception(319): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\xutility(3481): note: while trying to match the argument list '(File, const File)'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\xutility(3494): note: see reference to function template instantiation '_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,_InIt,const _Ty &,std::false_type)' being compiled
+          with
+          [
+              _InIt=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<File>>>,
+              _Ty=File
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.12.25827\include\xutility(3503): note: see reference to function template instantiation '_InIt std::_Find_unchecked<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,_Ty>(_InIt,_InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<File>>>,
+              _Ty=File
+          ]
+  c:\users\mubar\desktop\fall 2018 3rd\data structures cs-b\assignments\a5\a5\a5.cpp(740): note: see reference to function template instantiation '_InIt std::find<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,T>(_InIt,_InIt,const _Ty &)' being compiled
+          with
+          [
+              _InIt=std::_List_iterator<std::_List_val<std::_List_simple_types<File>>>,
+              _Ty=File,
+              T=File
+          ]
+  c:\users\mubar\desktop\fall 2018 3rd\data structures cs-b\assignments\a5\a5\a5.cpp(733): note: while compiling class template member function 'void HashTable<File>::Delete(bool,const T,int)'
+          with
+          [
+              T=File
+          ]
+  c:\users\mubar\desktop\fall 2018 3rd\data structures cs-b\assignments\a5\a5\a5.cpp(311): note: see reference to function template instantiation 'void HashTable<File>::Delete(bool,const T,int)' being compiled
+          with
+          [
+              T=File
+          ]
+  c:\users\mubar\desktop\fall 2018 3rd\data structures cs-b\assignments\a5\a5\a5.cpp(256): note: see reference to class template instantiation 'HashTable<File>' being compiled
